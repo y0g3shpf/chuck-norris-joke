@@ -1,0 +1,59 @@
+.App {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+body {
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+.title {
+  color: #7a7a7a;
+  font-size: 30px;
+}
+button {
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: #c2fbd7;
+  border: none;
+  border-radius: 10px;
+  color: green;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  display: inline-block;
+  width: 300px;
+  font-size: 25px;
+  transition: all 250ms;
+  margin: 0 auto;
+  margin-top: auto;
+}
+button:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+strong {
+  color: red;
+}
+h2 {
+  letter-spacing: 1.1px;
+}
